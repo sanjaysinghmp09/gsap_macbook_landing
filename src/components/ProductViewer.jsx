@@ -1,5 +1,4 @@
 
-
 function ProductViewer() {
     return (
         <section id="product-viewer">
@@ -22,6 +21,7 @@ function ProductViewer() {
                 </div>
 
             </div>
+            <p className="text-white text-4xl ">Render Canvas</p>
         </section>
     )
 }
