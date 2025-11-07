@@ -16,7 +16,7 @@ function ProductViewer() {
                         <div 
                         onClick={() => setColor('#adb5bd') } className={clsx('bg-neutral-300', color === '#abd5bd' && 'active')} />
                         <div 
-                        onClick={() => setColor('#2e2c2e') } className={clsx('bg-neutral-300', color === '#2e2c2e' && 'active')} />
+                        onClick={() => setColor('#2e2c2e') } className={clsx('bg-neutral-900', color === '#2e2c2e' && 'active')} />
 
                     </div>
                     <div className="size-control">
