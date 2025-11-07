@@ -1,5 +1,8 @@
+import useMacbookStore from "../store"
 
 function ProductViewer() {
+
+    const {color , scale , setColor , setScale} = useMacbookStore()
     return (
         <section id="product-viewer">
             <h2>Take a closer look.</h2>
@@ -9,7 +12,7 @@ function ProductViewer() {
                 </p>
                 <div className="flex-center gap-5 mt-5">
                     <div className="color-control">
-                        <div className="bg-neutral-300" />
+                        <div onClick={() => setColor('#adb5bd') } className="bg-neutral-300" />
                         <div className="bg-neutral-900" />
 
                     </div>
