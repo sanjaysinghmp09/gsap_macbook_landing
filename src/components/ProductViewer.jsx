@@ -1,5 +1,7 @@
-import clsx from "clsx"
-import useMacbookStore from "../store"
+import useMacbookStore from "../store";
+import clsx from "clsx";
+import {Canvas} from "@react-three/fiber";
+import {Box, OrbitControls} from "@react-three/drei";
 
 function ProductViewer() {
 
@@ -38,7 +40,9 @@ function ProductViewer() {
                 </div>
 
             </div>
-            <p className="text-white text-4xl ">Render Canvas</p>
+            <Canvas id="canvas">
+                <Box position={[-1,1,0]}></Box>
+            </Canvas>
         </section>
     )
 }
