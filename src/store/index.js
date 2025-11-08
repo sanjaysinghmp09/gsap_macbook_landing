@@ -1,5 +1,7 @@
 import { create } from "zustand";
 
+// only for commite 1
+
 const useMacbookStore = create((set) => ({
     color: "#2e2c2e",
     setColor: (color) => set({ color }),
