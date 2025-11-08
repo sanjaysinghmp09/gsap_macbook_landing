@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
 // only for commite 1
+// only for commit 2
 
 const useMacbookStore = create((set) => ({
     color: "#2e2c2e",
